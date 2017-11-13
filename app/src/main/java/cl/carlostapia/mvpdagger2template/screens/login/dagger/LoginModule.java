@@ -1,5 +1,8 @@
 package cl.carlostapia.mvpdagger2template.screens.login.dagger;
 
+import android.content.Context;
+
+import cl.carlostapia.mvpdagger2template.screens.login.LoginActivity;
 import cl.carlostapia.mvpdagger2template.screens.login.core.LoginModel;
 import cl.carlostapia.mvpdagger2template.screens.login.core.LoginPresenter;
 import cl.carlostapia.mvpdagger2template.screens.login.core.LoginView;
@@ -14,8 +17,8 @@ public class LoginModule {
 
     @LoginScope
     @Provides
-    LoginView provideLoginView(){
-        return new LoginView();
+    LoginView provideLoginView(LoginActivity loginActivity){
+        return new LoginView(loginActivity);
     }
 
     @LoginScope

@@ -17,11 +17,11 @@ public class LoginView {
 
     private View view;
 
-    public LoginView(LoginActivity context) {
-        FrameLayout parent = new FrameLayout(context);
+    public LoginView(LoginActivity loginActivity) {
+        FrameLayout parent = new FrameLayout(loginActivity);
         parent.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        view = LayoutInflater.from(context).inflate(R.layout.activity_splash, parent, true);
-        ButterKnife.bind(view, context);
+        view = LayoutInflater.from(loginActivity).inflate(R.layout.activity_splash, parent, true);
+        ButterKnife.bind(view, loginActivity);
     }
 
     public View constructView() {
