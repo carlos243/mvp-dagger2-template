@@ -1,4 +1,4 @@
-package cl.carlostapia.mvpdagger2template.screen.splash;
+package cl.carlostapia.mvpdagger2template.screens.splash;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import cl.carlostapia.mvpdagger2template.R;
-import cl.carlostapia.mvpdagger2template.screen.login.LoginActivity;
+import cl.carlostapia.mvpdagger2template.screens.login.LoginActivity;
 
 public class SplashActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package cl.carlostapia.mvpdagger2template.screen.home;
+package cl.carlostapia.mvpdagger2template.screens.home;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

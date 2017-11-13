@@ -1,8 +1,8 @@
-package cl.carlostapia.mvpdagger2template.screen.login.dagger;
+package cl.carlostapia.mvpdagger2template.screens.login.dagger;
 
-import cl.carlostapia.mvpdagger2template.screen.login.core.LoginModel;
-import cl.carlostapia.mvpdagger2template.screen.login.core.LoginPresenter;
-import cl.carlostapia.mvpdagger2template.screen.login.core.LoginView;
+import cl.carlostapia.mvpdagger2template.screens.login.core.LoginModel;
+import cl.carlostapia.mvpdagger2template.screens.login.core.LoginPresenter;
+import cl.carlostapia.mvpdagger2template.screens.login.core.LoginView;
 import dagger.Module;
 import dagger.Provides;
 
@@ -10,7 +10,7 @@ import dagger.Provides;
  * Created by CarlosTapia on 12-11-17.
  */
 @Module
-public class SplashModule {
+public class LoginModule {
 
     @LoginScope
     @Provides

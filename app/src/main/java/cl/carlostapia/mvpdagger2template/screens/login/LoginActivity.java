@@ -1,4 +1,4 @@
-package cl.carlostapia.mvpdagger2template.screen.login;
+package cl.carlostapia.mvpdagger2template.screens.login;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cl.carlostapia.mvpdagger2template.R;
-import cl.carlostapia.mvpdagger2template.screen.home.HomeActivity;
+import cl.carlostapia.mvpdagger2template.screens.home.HomeActivity;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
