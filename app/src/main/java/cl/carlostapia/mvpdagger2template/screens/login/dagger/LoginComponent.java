@@ -2,7 +2,7 @@ package cl.carlostapia.mvpdagger2template.screens.login.dagger;
 
 import javax.inject.Singleton;
 
-import cl.carlostapia.mvpdagger2template.application.dagger.AppModule;
+import cl.carlostapia.mvpdagger2template.application.dagger.app.AppModule;
 import cl.carlostapia.mvpdagger2template.screens.login.LoginActivity;
 import dagger.Component;
 

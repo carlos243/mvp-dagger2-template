@@ -1,4 +1,4 @@
-package cl.carlostapia.mvpdagger2template.application.builder;
+package cl.carlostapia.mvpdagger2template.application.dagger.app;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

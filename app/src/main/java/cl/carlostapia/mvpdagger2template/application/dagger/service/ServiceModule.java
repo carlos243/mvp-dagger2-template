@@ -1,4 +1,4 @@
-package cl.carlostapia.mvpdagger2template.application.dagger;
+package cl.carlostapia.mvpdagger2template.application.dagger.service;
 
 import android.app.Application;
 import android.content.SharedPreferences;

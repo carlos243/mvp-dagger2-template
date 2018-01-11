@@ -1,4 +1,4 @@
-package cl.carlostapia.mvpdagger2template.application.dagger;
+package cl.carlostapia.mvpdagger2template.application.dagger.app;
 
 import android.app.Application;
 
